@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<world>
+	<graspableBody>
+		<filename>../catkin_ws/flasa_graspit.wrl</filename>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0 +0 +0]</fullTransform>
+		</transform>
+	</graspableBody>
+	<robot>
+		<filename>models/robots/fetch_gripper/fetch_gripper.xml</filename>
+		<dofValues>+0 </dofValues>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[-250.84 -1.88475 +0]</fullTransform>
+		</transform>
+	</robot>
+	<camera>
+		<position>-87.7411 -415.823 +267.376</position>
+		<orientation>+0.487364 -0.078966 -0.0354393 +0.868899</orientation>
+		<focalDistance>+520.326</focalDistance>
+	</camera>
+</world>

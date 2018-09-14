@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<world>
+	<graspableBody>
+		<filename>../catkin_ws/spuzva_graspit.wrl</filename>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0 +0 +0]</fullTransform>
+		</transform>
+	</graspableBody>
+	<robot>
+		<filename>models/robots/fetch_gripper/fetch_gripper.xml</filename>
+		<dofValues>+0 </dofValues>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[-244.861 +6.99603 +0]</fullTransform>
+		</transform>
+	</robot>
+	<camera>
+		<position>+81.9055 +16.4289 +505.46</position>
+		<orientation>+0 +0 +0 +1</orientation>
+		<focalDistance>+469.155</focalDistance>
+	</camera>
+</world>

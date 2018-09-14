@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<world>
+	<graspableBody>
+		<filename>../catkin_ws/ubrus_graspit.wrl</filename>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0 +0 +0]</fullTransform>
+		</transform>
+	</graspableBody>
+	<robot>
+		<filename>models/robots/fetch_gripper/fetch_gripper.xml</filename>
+		<dofValues>+0 </dofValues>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[-261.967 +0 -21.076]</fullTransform>
+		</transform>
+	</robot>
+	<camera>
+		<position>-198.856 -487.146 +278.833</position>
+		<orientation>+0.524001 -0.0507382 -0.14211 +0.838244</orientation>
+		<focalDistance>+605.676</focalDistance>
+	</camera>
+</world>
